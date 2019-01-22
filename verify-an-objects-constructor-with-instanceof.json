@@ -1,0 +1,1 @@
+{"index.js":"/* jshint expr: true */\n\nfunction House(numBedrooms) {\n  this.numBedrooms = numBedrooms;\n}\n\n// Add your code below this line\nvar myHouse = new House(4);\n\nconsole.log(myHouse instanceof House);\n//use instanceof to verify that it is an instance of House\nmyHouse instanceof House;\n"}

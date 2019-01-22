@@ -1,0 +1,1 @@
+{"index.js":"function Dog(name) {\n  this.name = name;\n}\n//The prototype is an object that is shared among ALL instances of Dog.\n//target = Dog.prototype.numLegs create numLegs property with value of 4;\nDog.prototype.numLegs = 4;\n\n\n// Add your code above this line\nlet beagle = new Dog(\"Snoopy\");"}

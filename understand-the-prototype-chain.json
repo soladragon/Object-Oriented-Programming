@@ -1,0 +1,1 @@
+{"index.js":"function Dog(name) {\n  this.name = name;\n}\n\nlet beagle = new Dog(\"Snoopy\");\n\nDog.prototype.isPrototypeOf(beagle);  // => true\n\n//Object is a supertype for all objects in JavaScript. Therefore, any object can use the hasOwnProperty method and Object.prototype is present in Dog.prototype chain.\nObject.prototype.isPrototypeOf(Dog.prototype);\n"}
